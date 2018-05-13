@@ -5,6 +5,10 @@
 cd backend
 pipenv install
 pipenv shell
+
+open $HOME/.keras/keras.json
+and replace tensorflow with theano
+
 python3 serve.py
 ```
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ae551caa0bc569af8ff293f990bf2eb50d0de35e461d2f47d63f60c7e852d6fa"
+            "sha256": "b48373c9b8584367bf060c5987d4bdd70177de8b8be1600dbfcafcc909163262"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -397,6 +397,13 @@
             ],
             "version": "==1.1.0"
         },
+        "theano": {
+            "hashes": [
+                "sha256:88d8aba1fe2b6b75eacf455d01bc7e31e838c5a0fb8c13dde2d9472495ff4662"
+            ],
+            "index": "pypi",
+            "version": "==1.0.1"
+        },
         "urllib3": {
             "hashes": [
                 "sha256:06330f386d6e4b195fbfc736b297f58c5a892e4440e54d294d7004e3a9bbea1b",
@@ -413,11 +420,10 @@
         },
         "wheel": {
             "hashes": [
-                "sha256:1ae8153bed701cb062913b72429bcf854ba824f973735427681882a688cb55ce",
-                "sha256:9cdc8ab2cc9c3c2e2727a4b67c22881dbb0e1c503d592992594c5e131c867107"
+                "sha256:0a2e54558a0628f2145d2fc822137e322412115173e8a2ddbe1c9024338ae83c",
+                "sha256:80044e51ec5bbf6c894ba0bc48d26a8c20a9ba629f4ca19ea26ecfcf87685f5f"
             ],
-            "markers": "python_version >= '3'",
-            "version": "==0.31.0"
+            "version": "==0.31.1"
         }
     },
     "develop": {}

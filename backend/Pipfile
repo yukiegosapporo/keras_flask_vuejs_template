@@ -13,6 +13,7 @@ pprint = "*"
 requests = "*"
 tensorflow = "*"
 pillow = "*"
+theano = "*"
 
 [dev-packages]
 

@@ -17,10 +17,7 @@ def catch_all(path):
     return render_template("index.html")
 
 @app.route("/recipes", methods=['POST'])
-def recipes():
-    pprint.pprint(request.form)
-    pprint.pprint(request.data)
-    
+def recipes():    
     try:
         imagefile = request.files['file']
         objects = image2obj(imagefile, topx=1)
